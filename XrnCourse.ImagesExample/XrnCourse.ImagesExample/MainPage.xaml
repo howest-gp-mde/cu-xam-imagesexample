@@ -3,6 +3,7 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:d="http://xamarin.com/schemas/2014/forms/design"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             xmlns:extensions="clr-namespace:XrnCourse.ImagesExample.Extensions"
              mc:Ignorable="d"
              x:Class="XrnCourse.ImagesExample.MainPage">
     <ContentPage.Padding>
@@ -12,7 +13,7 @@
         </OnPlatform>
     </ContentPage.Padding>
     <ContentPage.Content>
-        <AbsoluteLayout>
+        <AbsoluteLayout x:Name="absLayout">
             <Image Aspect="AspectFill"
                AbsoluteLayout.LayoutFlags="All"
                AbsoluteLayout.LayoutBounds="0,0,1,1">
@@ -27,6 +28,10 @@
                     Aspect="AspectFit"
                     AbsoluteLayout.LayoutFlags="PositionProportional"
                     AbsoluteLayout.LayoutBounds="0.7, 0.3, 188, 40" />
+            <Image Source="{extensions:ImageResource XrnCourse.ImagesExample.images.glider.png}"
+               Aspect="AspectFit"
+               AbsoluteLayout.LayoutFlags="PositionProportional"
+               AbsoluteLayout.LayoutBounds="0.6, 0.35, 256, 54" />
         </AbsoluteLayout>
     </ContentPage.Content>
 
