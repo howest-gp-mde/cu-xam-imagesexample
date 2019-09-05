@@ -114,9 +114,9 @@ Global
 		{20A3616E-C66A-45EF-A34A-34B42A6F0E31}.Debug|x64.ActiveCfg = Debug|iPhone
 		{20A3616E-C66A-45EF-A34A-34B42A6F0E31}.Debug|x64.Build.0 = Debug|iPhone
 		{20A3616E-C66A-45EF-A34A-34B42A6F0E31}.Debug|x64.Deploy.0 = Debug|iPhone
-		{20A3616E-C66A-45EF-A34A-34B42A6F0E31}.Debug|x86.ActiveCfg = Debug|iPhone
-		{20A3616E-C66A-45EF-A34A-34B42A6F0E31}.Debug|x86.Build.0 = Debug|iPhone
-		{20A3616E-C66A-45EF-A34A-34B42A6F0E31}.Debug|x86.Deploy.0 = Debug|iPhone
+		{20A3616E-C66A-45EF-A34A-34B42A6F0E31}.Debug|x86.ActiveCfg = Debug|iPhoneSimulator
+		{20A3616E-C66A-45EF-A34A-34B42A6F0E31}.Debug|x86.Build.0 = Debug|iPhoneSimulator
+		{20A3616E-C66A-45EF-A34A-34B42A6F0E31}.Debug|x86.Deploy.0 = Debug|iPhoneSimulator
 		{20A3616E-C66A-45EF-A34A-34B42A6F0E31}.Release|Any CPU.ActiveCfg = Release|iPhone
 		{20A3616E-C66A-45EF-A34A-34B42A6F0E31}.Release|Any CPU.Build.0 = Release|iPhone
 		{20A3616E-C66A-45EF-A34A-34B42A6F0E31}.Release|Any CPU.Deploy.0 = Release|iPhone
